@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAttributes>
+		<value>250</value>
+
+		<determiner><![CDATA[a]]></determiner>
+
+		<name><![CDATA[sissy chastity device]]></name>
+
+		<namePlural pluralByDefault="false"><![CDATA[sissy chastity devices]]></namePlural>
+
+		<description><![CDATA[A small penis-shaped cage, complete with lock, that's designed to imprison the wearer's cock.​ When worn, it will physically prevent an erection from occurring. This one marks the wearer as a sissy.]]></description>
+		<physicalResistance>0.1</physicalResistance>
+		<femininity>ANDROGYNOUS</femininity>
+
+		<equipSlots>
+			<slot>PENIS</slot>
+		</equipSlots>
+
+
+		<rarity>EPIC</rarity>
+		<!-- Would like to make a new clothingSet for this and some other items
+		<clothingSet>SISSY</clothingSet>
+		-->
+
+		<imageName>sissy_chastity.svg</imageName>
+
+		<imageEquippedName slot="PENIS">sissy_chastity.svg</imageEquippedName>
+
+		<enchantmentLimit/>
+
+		<effects>
+			<effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="CLOTHING_MAJOR_ATTRIBUTE" secondaryModifier="RESISTANCE_LUST" timer="0"/>
+			<effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="CLOTHING_MAJOR_ATTRIBUTE" secondaryModifier="RESISTANCE_LUST" timer="0"/>
+			<effect itemEffectType="CLOTHING" limit="0" potency="DRAIN" primaryModifier="CLOTHING_SEALING" secondaryModifier="ARCANE_BOOST" timer="0"/>
+			<effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_DRAIN" primaryModifier="CLOTHING_MAJOR_ATTRIBUTE" secondaryModifier="STRENGTH" timer="0"/>
+			<effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="TF_MOD_FETISH_BEHAVIOUR" secondaryModifier="TF_MOD_FETISH_DENIAL_SELF" timer="0"/>
+			<effect itemEffectType="CLOTHING" limit="2" potency="DRAIN" primaryModifier="TF_PENIS" secondaryModifier="TF_MOD_SIZE" timer="0"/>
+			<effect itemEffectType="CLOTHING" limit="1" potency="DRAIN" primaryModifier="TF_PENIS" secondaryModifier="TF_MOD_SIZE_SECONDARY" timer="0"/>
+		</effects>
+
+		<blockedPartsList slot="PENIS">
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType>
+				<clothingAccessRequired>
+					<clothingAccess>PENIS</clothingAccess>
+				</clothingAccessRequired>
+				<blockedBodyParts/>
+				<clothingAccessBlocked>
+					<clothingAccess>PENIS</clothingAccess>
+				</clothingAccessBlocked>
+				<concealedSlots/>
+			</blockedParts>
+		</blockedPartsList>
+
+		<incompatibleSlots slot="PENIS"/>
+
+		<primaryColours>
+			<colour>CLOTHING_PINK</colour>
+			<colour>CLOTHING_PINK_LIGHT</colour>
+			<colour>CLOTHING_PINK_DARK</colour>
+			<colour>CLOTHING_PINK_HOT</colour>
+		</primaryColours>
+		<primaryColoursDye/>
+		<secondaryColours values="JUST_STEEL"/>
+		<secondaryColoursDye values="ALL_METAL"/>
+		<tertiaryColours values="JUST_STEEL"/>
+		<tertiaryColoursDye values="ALL_METAL"/>
+
+		<itemTags>
+			<tag>SOLD_BY_FINCH</tag>
+			<tag>REQUIRES_PENIS</tag>
+			<tag>PREVENTS_ERECTION_PHYSICAL</tag>
+			<tag>TRANSPARENT</tag>
+			<tag>RIGID_MATERIAL</tag>
+		</itemTags>
+	</coreAttributes>
+
+	<replacementText type="REMOVE_OR_EQUIP">
+		<self>
+			<![CDATA[[npc.Name] [npc.verb(lock)] the chastity cage in place around [npc.her] cock.]]>
+		</self>
+		<other>
+			<![CDATA[[npc.Name] [npc.verb(lock)] the chastity cage in place around [npc2.namePos] cock.]]>
+		</other>
+		<otherRough>
+			<![CDATA[[npc.Name] roughly squeezes [npc2.namePos] cock before locking it inside the chastity cage.]]>
+		</otherRough>
+	</replacementText>
+
+	<displacementText type="REMOVE_OR_EQUIP">
+		<self>
+			<![CDATA[[npc.Name] [npc.verb(unlock)] and [npc.verb(remove)] the chastity cage that was imprisoning [npc.her] cock.]]>
+		</self>
+		<other>
+			<![CDATA[[npc.Name] [npc.verb(unlock)] and [npc.verb(remove)] the chastity cage that was imprisoning [npc2.namePos] cock.]]>
+		</other>
+		<otherRough>
+			<![CDATA[[npc.Name] impatiently [npc.verb(unlock)] and [npc.verb(pull)] off the chastity cage that was imprisoning [npc2.namePos] cock.]]>
+		</otherRough>
+	</displacementText>
+
+
+</clothing>
