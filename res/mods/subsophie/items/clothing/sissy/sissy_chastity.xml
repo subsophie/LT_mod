@@ -36,7 +36,7 @@
 			<effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_DRAIN" primaryModifier="CLOTHING_MAJOR_ATTRIBUTE" secondaryModifier="STRENGTH" timer="0"/>
 			<effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="TF_MOD_FETISH_BEHAVIOUR" secondaryModifier="TF_MOD_FETISH_DENIAL_SELF" timer="0"/>
 			<effect itemEffectType="CLOTHING" limit="2" potency="DRAIN" primaryModifier="TF_PENIS" secondaryModifier="TF_MOD_SIZE" timer="0"/>
-			<effect itemEffectType="CLOTHING" limit="1" potency="DRAIN" primaryModifier="TF_PENIS" secondaryModifier="TF_MOD_SIZE_SECONDARY" timer="0"/>
+			<effect itemEffectType="CLOTHING" limit="0" potency="MINOR_DRAIN" primaryModifier="TF_PENIS" secondaryModifier="TF_MOD_SIZE_SECONDARY" timer="0"/>
 		</effects>
 
 		<blockedPartsList>
