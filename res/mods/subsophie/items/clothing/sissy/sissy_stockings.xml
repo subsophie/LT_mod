@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+		<value>450</value>
+		<determiner><![CDATA[a pair of]]></determiner>
+		<name><![CDATA[sissy stockings]]>
+		</name>
+		<namePlural pluralByDefault="true">
+			<![CDATA[sissy stockings]]>
+		</namePlural>
+		<description>
+			<![CDATA[A pair of silk sissy stockings, with a coloured bow near the top.]]>
+		</description>
+		<physicalResistance>1</physicalResistance>
+		<femininity>FEMININE</femininity>
+		<slot>SOCK</slot>
+		<rarity>EPIC</rarity>
+		<clothingSet/>
+		<imageName>sissy_stockings.svg</imageName>
+		<imageEquippedName/>
+		<enchantmentLimit/>
+		<effects>
+			<effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="TF_MOD_FETISH_BODY_PART" secondaryModifier="TF_MOD_FETISH_STRUTTER" timer="0"/>
+			<effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="CLOTHING_MAJOR_ATTRIBUTE" secondaryModifier="DAMAGE_LUST" timer="0"/>
+			<effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="CLOTHING_MAJOR_ATTRIBUTE" secondaryModifier="DAMAGE_LUST" timer="0"/>
+			<effect itemEffectType="CLOTHING" limit="7" potency="MINOR_BOOST" primaryModifier="TF_ASS" secondaryModifier="TF_MOD_SECONDARY_SIZE" timer="0"/>
+		</effects>
+		<blockedPartsList>
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType>
+				<clothingAccessRequired>
+					<clothingAccess>FEET</clothingAccess>
+					<clothingAccess>CALVES</clothingAccess>
+				</clothingAccessRequired>
+				<blockedBodyParts>
+				</blockedBodyParts>
+				<clothingAccessBlocked>
+				</clothingAccessBlocked>
+				<concealedSlots>
+				</concealedSlots>
+			</blockedParts>
+		</blockedPartsList>
+		<incompatibleSlots/>
+		<primaryColours>
+			<colour>CLOTHING_PINK</colour>
+			<colour>CLOTHING_PINK_LIGHT</colour>
+			<colour>CLOTHING_PINK_DARK</colour>
+			<colour>CLOTHING_PINK_HOT</colour>
+			<colour>CLOTHING_WHITE</colour>
+		</primaryColours>
+		<primaryColoursDye values="ALL"/>
+		<secondaryColours>
+			<colour>CLOTHING_PINK</colour>
+			<colour>CLOTHING_PINK_LIGHT</colour>
+			<colour>CLOTHING_PINK_DARK</colour>
+			<colour>CLOTHING_PINK_HOT</colour>
+			<colour>CLOTHING_WHITE</colour>
+		</secondaryColours>
+		<secondaryColoursDye values="ALL"/>
+		<tertiaryColours values="ALL"/>
+		<tertiaryColoursDye values="ALL"/>
+		<itemTags>
+			<tag>SOLD_BY_NYAN</tag>
+		</itemTags>
+	</coreAtributes>
+</clothing>
