@@ -25,7 +25,7 @@
 
 		<imageName>sissy_chastity.svg</imageName>
 
-		<imageEquippedName slot="PENIS">sissy_chastity.svg</imageEquippedName>
+		<imageEquippedName/>
 
 		<enchantmentLimit/>
 
@@ -39,21 +39,21 @@
 			<effect itemEffectType="CLOTHING" limit="1" potency="DRAIN" primaryModifier="TF_PENIS" secondaryModifier="TF_MOD_SIZE_SECONDARY" timer="0"/>
 		</effects>
 
-		<blockedPartsList slot="PENIS">
+		<blockedPartsList>
 			<blockedParts>
 				<displacementType>REMOVE_OR_EQUIP</displacementType>
 				<clothingAccessRequired>
-					<clothingAccess>PENIS</clothingAccess>
+					<clothingAccess>GROIN</clothingAccess>
 				</clothingAccessRequired>
-				<blockedBodyParts/>
-				<clothingAccessBlocked>
-					<clothingAccess>PENIS</clothingAccess>
-				</clothingAccessBlocked>
+				<blockedBodyParts>
+					<bodyPart>PENIS</bodyPart>
+				</blockedBodyParts>
+				<clothingAccessBlocked/>
 				<concealedSlots/>
 			</blockedParts>
 		</blockedPartsList>
 
-		<incompatibleSlots slot="PENIS"/>
+		<incompatibleSlots/>
 
 		<primaryColours>
 			<colour>CLOTHING_PINK</colour>
