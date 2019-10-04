@@ -18,8 +18,8 @@
 		<effects>
 			<effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="TF_MOD_FETISH_BODY_PART" secondaryModifier="TF_MOD_FETISH_ANAL_RECEIVING" timer="0"/>
 			<effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="TF_MOD_FETISH_BODY_PART" secondaryModifier="TF_MOD_FETISH_PENIS_RECEIVING" timer="0"/>
-			<effect itemEffectType="CLOTHING" limit="7" potency="BOOST" primaryModifier="TF_ASS" secondaryModifier="TF_MOD_CAPACITY" timer="0"/>
-			<effect itemEffectType="CLOTHING" limit="7" potency="MILD_BOOST" primaryModifier="TF_ASS" secondaryModifier="TF_MOD_WETNESS" timer="0"/>
+			<effect itemEffectType="CLOTHING" limit="60" potency="BOOST" primaryModifier="TF_ASS" secondaryModifier="TF_MOD_CAPACITY" timer="0"/>
+			<effect itemEffectType="CLOTHING" limit="7" potency="MINOR_BOOST" primaryModifier="TF_ASS" secondaryModifier="TF_MOD_WETNESS" timer="0"/>
 		</effects>
 		
 		<blockedPartsList>
