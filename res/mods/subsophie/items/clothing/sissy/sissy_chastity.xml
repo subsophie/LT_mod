@@ -9,7 +9,7 @@
 
 		<namePlural pluralByDefault="false"><![CDATA[sissy chastity devices]]></namePlural>
 
-		<description><![CDATA[A small penis-shaped cage, complete with lock, that's designed to imprison the wearer's cock.​ When worn, it will physically prevent an erection from occurring. This one marks the wearer as a sissy.]]></description>
+		<description><![CDATA[A small penis-shaped cage, complete with lock, that's designed to imprison the wearer's cock.​ When worn, it will physically prevent an erection from occurring.]]></description>
 		<physicalResistance>0.1</physicalResistance>
 		<femininity>ANDROGYNOUS</femininity>
 
@@ -17,11 +17,13 @@
 			<slot>PENIS</slot>
 		</equipSlots>
 
+		<rarity>EPIC</rarity>
 
-		<rarity>RARE</rarity>
-		<!-- Would like to make a new clothingSet for this and some other items
+		<!-- Can we define new sets yet? 
 		<clothingSet>SISSY</clothingSet>
 		-->
+		<!-- And how about items in multiple sets? -->
+		<clothingSet>BDSM</clothingSet>	
 
 		<imageName>sissy_chastity.svg</imageName>
 
