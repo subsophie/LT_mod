@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+		<value>150</value>
+		<determiner><![CDATA[a]]></determiner>
+		<name><![CDATA[sissy suspender belt]]>
+		</name>
+		<namePlural pluralByDefault="false">
+			<![CDATA[sissy suspender belts]]>
+		</namePlural>
+		<description>
+			<![CDATA[A circular band of soft, elastic nylon, to which are attached six straps; each of which is designed to hook onto a pair of stockings in order to keep them up.]]>
+		</description>
+		<physicalResistance>1</physicalResistance>
+		<femininity>FEMININE</femininity>
+		<slot>HIPS</slot>
+		<rarity>EPIC</rarity>
+		<clothingSet/>
+		<imageName>sissy_belt.svg</imageName>
+		<imageEquippedName/>
+		<enchantmentLimit/>
+		<effects>
+			<effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="CLOTHING_MAJOR_ATTRIBUTE" secondaryModifier="DAMAGE_LUST" timer="0"/>
+			<effect itemEffectType="CLOTHING" limit="7" potency="MINOR_BOOST" primaryModifier="TF_ASS" secondaryModifier="TF_MOD_SIZE_SECONDARY" timer="0"/>
+		</effects>
+		<blockedPartsList>
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType>
+				<clothingAccessRequired>
+				</clothingAccessRequired>
+				<blockedBodyParts>
+				</blockedBodyParts>
+				<clothingAccessBlocked>
+				</clothingAccessBlocked>
+				<concealedSlots>
+				</concealedSlots>
+			</blockedParts>
+		</blockedPartsList>
+		<incompatibleSlots/>
+		<primaryColours>
+			<colour>CLOTHING_PINK</colour>
+			<colour>CLOTHING_PINK_LIGHT</colour>
+			<colour>CLOTHING_PINK_DARK</colour>
+			<colour>CLOTHING_PINK_HOT</colour>
+		</primaryColours>
+		<primaryColoursDye values="ALL"/>
+		<secondaryColours values="ALL_METAL"/>
+		<secondaryColoursDye values="ALL_METAL"/>
+		<tertiaryColours/>
+		<tertiaryColoursDye/>
+		<itemTags>
+			<tag>SOLD_BY_NYAN</tag>
+		</itemTags>
+	</coreAtributes>
+	<displacementText type="REMOVE_OR_EQUIP">
+		<playerSelf>
+			<![CDATA[You unequip your suspender belt]]>
+		</playerSelf>
+		<playerNPC>
+			<![CDATA[You unequip your suspender belt]]>
+		</playerNPC>
+		<playerNPCRough>
+			<![CDATA[You roughly unequip [npc.name]'s suspender belt.]]>
+		</playerNPCRough>
+		<NPCSelf>
+			<![CDATA[[npc.Name]  [npc.her] suspender belt.]]>
+		</NPCSelf>
+		<NPCPlayer>
+			<![CDATA[[npc.Name]  your suspender belt.]]>
+		</NPCPlayer>
+		<NPCPlayerRough>
+			<![CDATA[[npc.Name] roughly  your suspender belt.]]>
+		</NPCPlayerRough>
+		<NPCOtherNPC>
+			<![CDATA[[npc.Name]  [npc2.name]'s suspender belt.]]>
+		</NPCOtherNPC>
+		<NPCOtherNPCRough>
+			<![CDATA[[npc.Name] roughly  [npc2.name]'s suspender belt.]]>
+		</NPCOtherNPCRough>
+	</displacementText>
+	<replacementText type="REMOVE_OR_EQUIP">
+		<playerSelf>
+			<![CDATA[You  your suspender belt]]>
+		</playerSelf>
+		<playerNPC>
+			<![CDATA[You  your suspender belt]]>
+		</playerNPC>
+		<playerNPCRough>
+			<![CDATA[You roughly  [npc.name]'s suspender belt.]]>
+		</playerNPCRough>
+		<NPCSelf>
+			<![CDATA[[npc.Name]  [npc.her] suspender belt.]]>
+		</NPCSelf>
+		<NPCPlayer>
+			<![CDATA[[npc.Name]  your suspender belt.]]>
+		</NPCPlayer>
+		<NPCPlayerRough>
+			<![CDATA[[npc.Name] roughly  your suspender belt.]]>
+		</NPCPlayerRough>
+		<NPCOtherNPC>
+			<![CDATA[[npc.Name]  [npc2.name]'s suspender belt.]]>
+		</NPCOtherNPC>
+		<NPCOtherNPCRough>
+			<![CDATA[[npc.Name] roughly  [npc2.name]'s suspender belt.]]>
+		</NPCOtherNPCRough>
+	</replacementText>
+</clothing>
